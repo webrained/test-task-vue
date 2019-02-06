@@ -1,7 +1,7 @@
 import Axios from 'axios'
 
 const client = Axios.create({
-  baseURL: 'http://192.168.1.7:8000/api/',
+  baseURL: 'http://localhost:3000/api/',
   json: true
 })
 
